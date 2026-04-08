@@ -47,7 +47,7 @@ pip install -r requirements-analytics.txt
 # Estructura del repositorio 
 
 /
-├── .github/workflows/         
+├── .github/FlujoDeTrabajo/         
 ├── config/                     
 │   ├── infrastructure.yaml    
 │   └── ml_params.yaml          
@@ -58,12 +58,12 @@ pip install -r requirements-analytics.txt
 ├── docs/                      
 ├── src/                        
 │   ├── ingestion/              
-│   │   ├── connectors/        
-│   │   └── schema_validator.py 
-│   ├── analytics/              
-│   │   ├── features/           
-│   │   ├── models/           
-│   │   └── notebooks/          
+│   │   ├── conectores/        
+│   │   └── esquema_validacion.py 
+│   ├── analiticos/              
+│   │   ├── caracteristicas/           
+│   │   ├── modelos/           
+│   │   └── Informes/          
 │   └── ui/                     
 ├── tests/                     
 ├── docker-compose.yml          
