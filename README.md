@@ -6,12 +6,14 @@ Desarrollo de una arquitectura para una empresa que busca modernizarse con el fo
 
 la arquitectura que fue seleccionada es la Lakehouse ya que se necesitan recolectar datos de temperatura y vibración  donde sus datos son fijos y sin implementación de cambios haciendo que no sea necesario tener grandes bases de datos para guardar toda esta información siendo posible una escalabilidad simple gracias a sus datos no estructurados. En cuanto seguridad, es útil tener la seguridad separada por lógica ya que se usará el patrón capa medallion donde consiste en que cada capa tendrá su seguridad separada por roles asignados para controlar el acceso.Por último en la interoperabilidad lakehouse tiene un entorno unificado donde se pueden implementar herramientas sin la necesidad de mover servicios esto reduce mucho los costos y para el caso no se necesita tanta implementación.
 
-# Requisitos y configuracion del entorno tecnico
-# Herramientas utlizadas
+# Requisitos y configuracion del entorno tecnico , Herramientas utlizadas
 
 Lenguaje de programacon utilizado: Python 
+
 Almacenamiento de datos (base de datos): PostgreSQL
+
 Control de versiones: Git y github
+
 Contenedor de software: Docker
 
 
