@@ -34,10 +34,9 @@ Contenedor de software: Docker
 
 4.# Crear y activar entorno virtual
 python -m venv venv
-# En Windows: venv\Scripts\activate
+5 En Windows: venv\Scripts\activate
 
-5.
-# Instalar dependencias de IA y Visualización
+6 Instalar dependencias de IA y Visualización
 pip install -r requirements-analytics.txt
 
 
