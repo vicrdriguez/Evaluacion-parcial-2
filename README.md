@@ -19,4 +19,53 @@ Contenedor de software: Docker
 
 # Instruccion de instalacion
 
+ **Clonar el repositorio:**
+    ```bash
+    git clone https://github.com/usuario/proyecto.git
+    ```
+2.  **Instalar dependencias:**
+    ```bash
+    npm install  # O pip install -r requirements.txt
 
+3. 
+  **Levantamos los servicios de almacenamiento y procesamiento:**
+    ```
+    docker-compose up -d storage-engine spark-master
+
+4.# Crear y activar entorno virtual
+python -m venv venv
+# En Windows: venv\Scripts\activate
+
+5.
+# Instalar dependencias de IA y Visualización
+pip install -r requirements-analytics.txt
+
+
+
+
+
+# Estructura del repositorio 
+
+/
+├── .github/workflows/         
+├── config/                     
+│   ├── infrastructure.yaml    
+│   └── ml_params.yaml          
+├── data/                      
+│   ├── 01_bronze/             
+│   ├── 02_silver/             
+│   └── 03_gold/               
+├── docs/                      
+├── src/                        
+│   ├── ingestion/              
+│   │   ├── connectors/        
+│   │   └── schema_validator.py 
+│   ├── analytics/              
+│   │   ├── features/           
+│   │   ├── models/           
+│   │   └── notebooks/          
+│   └── ui/                     
+├── tests/                     
+├── docker-compose.yml          
+├── requirements.txt            
+└── README.md
